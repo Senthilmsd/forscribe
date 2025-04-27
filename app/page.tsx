@@ -6,9 +6,9 @@ import google from '../public/Assets/g-logo.png'
 import microsoft from '../public/Assets/microsoft.png'
 
 
-import { useState, useEffect, useRef  } from "react";
+import { useState, useRef  } from "react";
 import Card from "./cards/page";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 // import { Link } from 'react-router-dom';
 
 
