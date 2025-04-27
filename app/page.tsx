@@ -154,14 +154,14 @@ export default function page() {
       {showSignIn && (
         <div className="overflow-hidden sticky bottom-10 bg-gradient-to-br from-black/100 via-black/80  to-purple-500/60 h-screen z-50 block">
           {/* Logo */}
-          <div className="flex justify-left ml-6 pt-6">
-            <Image src={logoName} alt='Logo&name' className="h-10"/>
+          <div className="flex justify-left ml-6 pt-6 max-[450px]:justify-center max-[450px]:pt-20 max-[750px]:justify-center max-[750px]:pt-20">
+            <Image src={logoName} alt='Logo&name' className="h-10 max-[450px]:h-6 max-[450px]:w-auto "/>
           </div>
           {/* Title */}
 
           
           {/* Buttons */}
-          <div className="flex flex-col items-center justify-center  space-y-4 mb-6 bg-black/50 w-96 absolute top-50 left-140 p-2 rounded-[20px]">
+          <div className="flex flex-col items-center justify-center  space-y-4 mb-6 bg-black/50 w-96 absolute top-50 left-140 p-2 rounded-[20px] max-[450px]:left-10 max-[750px]:left-30 max-[750px]:pt-20">
           <Image src={logo} alt="Forescribe" className="mt-5" />
           
           <h2 className="text-white text-2xl font-semibold text-center pb-3">
@@ -187,7 +187,7 @@ export default function page() {
           
         </div>
         {/* Terms */}
-       . <p className="text-xs text-gray-400 text-center absolute left-138 top-140 w-100">
+       . <p className="text-xs text-gray-400 text-center absolute left-138 top-140 w-100 max-[450px]:left-10 max-[450px]:top-160 max-[750px]:left-30 max-[750px]:top-160">
               By clicking "Continue with Google/Microsoft" above, you acknowledge that you have read and understood, and agree to Forescribe’s{" "}
               <a href="#" className="underline text-purple-400">Terms & Conditions</a> and{" "}
               <a href="#" className="underline text-purple-400">Privacy Policy</a>.
