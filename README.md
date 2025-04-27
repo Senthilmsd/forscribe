@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+# 🚀 Forescribe SignUp Animation App
+
+This project is a responsive SignUp screen with animated background cards, built using **Next.js**, **TailwindCSS**, and **Framer Motion**.  
+The signup panel appears at the top with a glassmorphism effect, and background cards animate smoothly.
+
 First, run the development server:
 
 ```bash
@@ -13,6 +18,45 @@ pnpm dev
 # or
 bun dev
 ```
+
+1. **Clone the repository**
+
+bash
+git clone https://github.com/Senthilmsd/forescribe-signup.git
+cd forescribe-signup
+
+2. Install dependencies
+
+bash
+npm install
+# or
+yarn install
+
+
+3. Run the development server
+
+bash
+
+npm run dev
+# or
+yarn dev
+
+3000
+
+🛠️ Technologies Used:-
+
+Next.js 14
+
+TypeScript
+
+TailwindCSS (with custom responsive design for screens like 345px)
+
+Framer Motion (for smooth opacity and scroll animation)
+
+React Hooks (useState, useEffect, useRef)
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
