@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 export default function page() {
   // const router = useRouter();
   const [showSignIn, setShowSignIn] = useState(true);
-  const [isScrollable, setIsScrollable] = useState(false);
+  const isScrollable = false;
   const containerRef = useRef<HTMLDivElement | null>(null);
 
 
