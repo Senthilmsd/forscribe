@@ -16,19 +16,7 @@ export default function page() {
   // const router = useRouter();
   const [showSignIn, setShowSignIn] = useState(true);
   const [isScrollable, setIsScrollable] = useState(false);
-  const [scrollToBottom, setScrollToBottom] = useState(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
-
-  
-
-  // useEffect(() => {
-  //   if (isScrollable && containerRef.current) {
-  //     containerRef.current.scrollTo({
-  //       top: containerRef.current.scrollHeight,
-  //       behavior: "smooth", // Smooth scroll
-  //     });
-  //   }
-  // }, [isScrollable]);
 
 
   if(!showSignIn){
